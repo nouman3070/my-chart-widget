@@ -1,0 +1,32 @@
+{
+  "name": "ictpl/chart-widget",
+  "description": "Reusable Chart Widget for Yii2 and Laravel using Chart.js",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "your-email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ictpl\\ChartWidget\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ictpl\\ChartWidget\\Laravel\\ChartWidgetServiceProvider"
+      ],
+      "aliases": {
+        "ChartWidget": "ictpl\\ChartWidget\\Laravel\\ChartWidget"
+      }
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
