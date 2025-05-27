@@ -1,8 +1,15 @@
 {
-  "name": "ictpldd/my-chart-widget",
+  "name": "nouman3070/my-chart-widget",
   "description": "A reusable Yii2 Chart.js widget supporting all major chart types.",
   "type": "yii2-extension",
-  "keywords": ["yii2", "chart", "chart.js", "widget", "graph", "visualization"],
+  "keywords": [
+    "yii2",
+    "chart",
+    "chart.js",
+    "widget",
+    "graph",
+    "visualization"
+  ],
   "license": "MIT",
   "require": {
     "php": ">=7.4",
@@ -10,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "IctplDd\\MyChartWidget\\": "src/"
+      "nouman3070\\MyChartWidget\\": "src/"
     }
   },
   "minimum-stability": "stable",

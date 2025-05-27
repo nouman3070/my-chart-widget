@@ -1,6 +1,6 @@
 <?php
 
-namespace IctplDd\MyChartWidget;
+namespace nouman3070\MyChartWidget;
 
 use yii\base\Widget;
 use yii\helpers\Html;
