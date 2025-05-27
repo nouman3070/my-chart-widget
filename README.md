@@ -8,15 +8,7 @@ A reusable Chart.js wrapper widget for Yii2, allowing easy rendering of multiple
 Install the package via Composer:
 
 ```bash
-composer require ictpl-dd/yii2-chart-widget
-```
-
-Add the namespace to your `aliases` in `config/web.php` if needed:
-
-```php
-'aliases' => [
-    '@IctplDd/ChartWidget' => '@vendor/ictpl-dd/yii2-chart-widget/src',
-],
+composer require nouman3070/yii2-chart-widget
 ```
 
 ## 🚀 Usage
@@ -24,29 +16,7 @@ Add the namespace to your `aliases` in `config/web.php` if needed:
 Use the widget in your view file:
 
 ```php
-use IctplDd\ChartWidget\ChartWidget;
-```
-
-### Example
-
-```php
-<?= ChartWidget::widget([
-    'elementId' => 'lineChart',
-    'type' => 'line',
-    'labels' => ['Jan', 'Feb', 'Mar', 'Apr'],
-    'datasets' => [
-        [
-            'label' => 'Sales',
-            'data' => [100, 200, 150, 300],
-            'fill' => false,
-        ],
-        [
-            'label' => 'Purchase',
-            'data' => [80, 120, 90, 240],
-            'fill' => false,
-        ],
-    ],
-]) ?>
+use nouman3070\ChartWidget\ChartWidget;
 ```
 
 ## 📊 Supported Chart Types
