@@ -8,7 +8,7 @@ A reusable Chart.js wrapper widget for Yii2, allowing easy rendering of multiple
 Install the package via Composer:
 
 ```bash
-composer require nouman3070/yii2-chart-widget
+composer require nouman3070/my-chart-widget
 ```
 
 ## 🚀 Usage
